@@ -1,18 +1,24 @@
 {
-  "name": "filemetadata",
+  "name": "file_metadata",
   "version": "1.0.0",
-  "description": "1. I can submit a form that includes a file upload.\r 2. The form file input field  has the \"name\" attribute set to \"upfile\". We rely on this in testing.\r 3. When I submit something, I will receive the file name and size in bytes within the JSON response",
+  "description": "API project for freeCodeCamp",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
+  "engines": {
+		"node": "10.15.0"
+	},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fizirvin/filemetadata.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+		"hyperdev",
+		"express"],
+  "author": "Irvin Fiz",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fizirvin/filemetadata/issues"
   },
