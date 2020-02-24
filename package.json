@@ -1,0 +1,20 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.0",
+  "description": "1. I can submit a form that includes a file upload.\r 2. The form file input field  has the \"name\" attribute set to \"upfile\". We rely on this in testing.\r 3. When I submit something, I will receive the file name and size in bytes within the JSON response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fizirvin/filemetadata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fizirvin/filemetadata/issues"
+  },
+  "homepage": "https://github.com/fizirvin/filemetadata#readme"
+}
